@@ -61,7 +61,7 @@ jobs:
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
       run:
-        working-directory: ./delta-dental/tree/main/Terraform/04_variables
+        working-directory: ./Terraform/04_variables
 
     steps:
     # Checkout the repository to the GitHub Actions runner
